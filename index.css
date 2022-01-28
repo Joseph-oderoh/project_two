@@ -86,3 +86,33 @@
     border-radius: 45px;
     margin: 10px;
 }
+.container1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: whitesmoke;
+    opacity: 0.5;
+    margin: 200px;
+}
+.c1{
+    margin: 10px;
+    border: none;
+    padding: 30px;
+    font-size: x-small;
+    border-radius: 45px;
+
+}
+.c2{
+    margin: 10px;
+    border: none;
+    padding: 30px;
+    font-size: x-small;
+    border-radius: 45px;
+}
+.c3{
+    margin: 10px;
+    border: none;
+    padding: 30px;
+    font-size: x-small;
+    border-radius: 45px;
+}
