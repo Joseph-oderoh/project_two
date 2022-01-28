@@ -6,6 +6,7 @@
     list-style-type: none;
     margin: 10px;
     padding: 10px;
+    
 }
 #logo{
     font-weight: bolder;
@@ -18,19 +19,27 @@
     justify-content: right;
     list-style-type: none;
     margin: 10px;
+    color: black;
 }
 .l2{
     display: flex;
     background-color: blue;
     font-weight: bolder;
+    color:  #23A6F0;
 }
 .l1{
     display: flex;
     font-weight: bolder;
     margin: 10px;
 }
-.nav.bg{
-    background-image: url(images/#hero-cover.3.png);
-    height: 300px;
+.container{
+    background-size: cover;
+    background-image: url("images/-hero-cover.3.png");
+    background-clip: content-box;
+    height: 600px;
     width: 100%;
+}
+.pgr{
+    text-align: center;
+    justify-content: center;
 }
