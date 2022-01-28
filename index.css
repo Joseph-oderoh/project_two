@@ -9,6 +9,7 @@
     
 }
 #logo{
+    font-size: x-larger;
     font-weight: bolder;
    display: flex;
    justify-content: left; 
@@ -19,13 +20,13 @@
     justify-content: right;
     list-style-type: none;
     margin: 10px;
-    color: black;
+    font-weight: bolder;
 }
 .l2{
     display: flex;
     background-color: blue;
     font-weight: bolder;
-    color:  #23A6F0;
+    color: white;
 }
 .l1{
     display: flex;
@@ -42,4 +43,17 @@
 .pgr{
     text-align: center;
     justify-content: center;
+    color: white;
+}
+#b1{
+    background-color: blue;
+    color: white;
+    border-radius: 180px;
+    padding: 10px;
+}
+#b2{
+    background-color: transparent;
+    color: white;
+    border-radius: 180px;
+    padding: 10px;  
 }
