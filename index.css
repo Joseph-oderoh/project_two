@@ -36,8 +36,8 @@
 .container{
     background-size: cover;
     background-image: url("images/-hero-cover.3.png");
-    background-clip: content-box;
-    height: 600px;
+    background-clip: border-box;
+    height: 700px;
     width: 100%;
 }
 .pgr{
@@ -56,4 +56,33 @@
     color: white;
     border-radius: 180px;
     padding: 10px;  
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 250px;
+}
+.section1{
+    border: 2px solid black;
+    background-color: white;
+    padding: 30px;
+    border-radius: 45px;
+    margin: 10px;
+    
+}
+.section2{
+    border: 2px solid black;
+    background-color: white;
+    padding: 30px;
+    border-radius: 45px;
+    bottom: 200px;
+    margin: 10px;
+}
+.section3{
+    border: 2px solid black;
+    background-color: blue;
+    padding: 30px;
+    border-radius: 45px;
+    margin: 10px;
 }
