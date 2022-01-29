@@ -202,3 +202,37 @@
     height: 30px;
     justify-content: right;
 }
+.pricing{
+    text-align: center;
+    margin-top: 100px;
+}
+.p{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.p ul{
+    list-style-type: none;
+}
+.p1{
+    border: 1px solid blue;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px black;
+}.p2{
+    border: 1px solid blue;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px black;
+    margin-bottom: 10px;
+    background-color: darkblue;
+    color: white;
+    margin-top: 10px;
+}    
+.p3{
+    border: 1px solid blue;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px black;
+}
