@@ -5,7 +5,7 @@ html{
 }
 @media only screen and (min-width: 480px){
     html{
-        background-color: white;
+        background-color: #252B42;
         color: blue;
     }
     body{
