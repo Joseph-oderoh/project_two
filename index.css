@@ -16,6 +16,7 @@ ul li{
     display: inline;
     text-align: center;
     color: black;
+    margin: 10px;
 }
 #logo{
     display: inline;
@@ -99,7 +100,7 @@ ul li{
     justify-content: center;
     align-content: center;
     background-color: whitesmoke;
-    margin: 100px;
+    margin: 200px;
 }
 .c1{
     margin: 10px;
