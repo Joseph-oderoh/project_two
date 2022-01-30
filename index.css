@@ -7,34 +7,38 @@ html{
     font-weight: bolder;
     text-align: center;
     justify-content: center;
-    display: flex;
     list-style-type: none;
     margin: 10px;
     padding: 10px;
     
 }
+ul li{
+    display: inline;
+    text-align: center;
+    color: black;
+}
 #logo{
+    display: inline;
     font-size: x-larger;
     font-weight: bolder;
-   display: flex;
+   height: 100px;
    justify-content: left; 
    font-family: Montserrat;
 }
 .navi{
-    display: flex;
+    float: right;
     justify-content: right;
-    list-style-type: none;
     margin: 10px;
     font-weight: bolder;
 }
 .l2{
-    display: flex;
+    display: inline;
     background-color: blue;
     font-weight: bolder;
-    color: white;
+    color: black;
 }
 .l1{
-    display: flex;
+    display: inline;
     font-weight: bolder;
     margin: 10px;
 }
@@ -215,30 +219,36 @@ html{
     align-content: center;
     text-align: center;
 }
-.p ul{
+.p ul>li{
     list-style-type: none;
+    display: inline-block;
+    font-size: small;
+    align-items: center;
 }
 .p1{
+    text-align: center;
     border: 1px solid blue;
     margin: 10px;
     border-radius: 15px;
     box-shadow: 2px 2px 5px black;
-}.p2{
+   padding: 50px;
+}
+.p2{
     border: 1px solid blue;
     margin: 10px;
     border-radius: 15px;
     box-shadow: 2px 2px 5px black;
-    margin-bottom: 10px;
     background-color: darkblue;
     color: white;
-    margin-top: 10px;
-}    
+    padding: 50px;
+}   
 .p3{
     border: 1px solid blue;
     margin: 10px;
     border-radius: 15px;
     box-shadow: 2px 2px 5px black;
 }
+
 .back{
     padding: 40px;
     background-color: black;
@@ -257,39 +267,90 @@ html{
 
 .bottom{
     display: flex;
-    justify-content: center;
-    align-content: center;
     margin-top: 50px;
 }
 .btm{
-    border: 2px solid lime;
     background-color: white;
-    padding: 20px;
-    border-radius: 45px;
     margin: 10px;
     box-shadow:  5px 3px 4px grey ;
-    
-    
+}
+.btm ul>li{
+       font-size: x-large;
+       display: inline-block;
+       margin: 20px; 
+       display: inline-block;
+       font-size: small;
+      align-items: center;   
 } 
 .btm0{
-    border: 2px solid lime;
     background-color: white;
-    padding: 20px;
-    border-radius: 45px;
+    padding: 10px;
     margin: 10px;
     box-shadow:  5px 3px 4px grey ;
 }   
-   
-.btm>ul{
+
+.final{
+    color: black;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+}
+.f1 ul>li{
     list-style-type: none;
-    padding: 30px;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: small;
+    align-items: center;
+}
+.f1{
     text-align: center;
     color: black;
-    align-items: left;
-} 
-ul :nth-last-child(1){
-    margin: 20px;
-    font-weight: bolder;
+    display: flex;
+    background-color: beige;
+    padding: 50px;
+    justify-content: center;
+}
+.f2{
+    border: 2px solid black;
+    padding: 20px;
+    align-content: center;
+    border-radius: 45px;
+    margin: 10px;
+}
+.f3{
+    border: 2px solid black;
+    padding: 20px;
+    text-align: left;
+    border-radius: 45px;
+    margin: 10px;
+}
+.f4{
+    border: 2px solid black;
+    padding: 20px;
+    text-align: left;
+    border-radius: 45px;
+    margin: 10px;
+}
+.f5{
+    border: 2px solid black;
+    padding: 20px;
+    text-align: left;
+    border-radius: 45px;
+    margin: 10px;
+}
+.f6{
+    border: 2px solid black;
+    padding: 20px;
     text-align: center;
-    
+    border-radius: 45px;
+    margin: 10px;
+}
+footer{
+    font-size: small;
+    color: black;
+}
+.fimg{
+    float: right;
+    margin: 10px;
 }
