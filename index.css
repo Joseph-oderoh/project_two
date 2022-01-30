@@ -3,13 +3,24 @@ html{
     margin: 100px;
     overflow: scroll;
 }
-@media only screen and (min-width:480px){
+@media only screen and (min-width:360px){
     html{
         background-color: white;
         color: blue;
     }
+    body{
+        background-color: wheat;
+        color: blue;
+    }
     
 }
+@media only screen and ((orientation=landsccape)){
+    html{
+        font-size: 20px;
+        color: red;
+       }
+}
+
 .nav1 ul{
     font-weight: bolder;
     text-align: center;
