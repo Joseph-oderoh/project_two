@@ -6,11 +6,11 @@ html{
 @media only screen and (min-width: 480px){
     html{
         background-color: #252B42;
-        color: blue;
+        color: black;
     }
     body{
         background-color: white;
-        color: blue;
+        color: black;
     }
     
 }
