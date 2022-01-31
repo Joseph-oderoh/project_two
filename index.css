@@ -385,17 +385,17 @@ footer{
     body{
         background-color: white;
         color: black;
-        font-size: 5px;
+        font-size: 15px;
     }
         .flex-container{
            color: black;
            flex-wrap: wrap;
-           font-size: 5px;
+           font-size: 15px;
            display: flex;
         }
     .container1{
         display: flex;
-        font-size: 5px;
+        font-size: 15px;
         align-items: center;
     }
     .pgr{
@@ -407,8 +407,7 @@ footer{
         overflow: scroll;
         color: blue;
         flex-wrap: wrap;
-        font-size: 5px;
-        margin: 3x;
+        font-size: 15px;
 
     }
     #images{
@@ -422,7 +421,7 @@ footer{
         flex-direction: column;
         text-align: center;
         display: inline;
-        font-size: 5px;
+        font-size: 15px;
     }
 
     .p{
@@ -435,7 +434,7 @@ footer{
         padding: none;
     }
     .p ul>li{
-         font-size: 8px;
+         font-size: 15px;
          align-items: center;
     }
     .btm0{
@@ -447,11 +446,11 @@ footer{
         flex-direction: column;
         flex-wrap: wrap;
         display: flex;
-        font-size: 8px;
+        font-size: 15px;
         justify-content: left;
     }
     .btm ul>li{
-        font-size: 10px;
+        font-size: 15px;
     }
     .back2{
      display: none;
@@ -466,7 +465,7 @@ footer{
     
     }
     .f1 ul>li{
-        font-size: 10px;
+        font-size: 15px;
         text-align: center;
         border: none;
     }
