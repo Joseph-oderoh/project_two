@@ -3,22 +3,12 @@ html{
     margin: 100px;
     overflow: scroll;
 }
-@media only screen and (min-width: 480px){
-    html{
-        background-color: #252B42;
-        color: black;
-    }
-    body{
-        background-color: white;
-        color: black;
-    }
-    
-}
-@media only screen and ((orientation=portrait)){
-    html{
-        font-size: 20px;
-        color: red;
-       }
+
+@media only screen and ((orientation=landscape)){
+     html{
+         background-color: yellow;
+     }
+  
 }
 
 .nav1 ul{
@@ -67,6 +57,7 @@ ul li{
     background-clip: border-box;
     width: 100%;
 }
+
 .pgr{
     text-align: center;
     justify-content: center;
@@ -330,35 +321,35 @@ ul li{
     justify-content: center;
 }
 .f2{
-    border: 2px solid wheat;
+    border: none;
     padding: 20px;
     align-content: center;
     border-radius: 45px;
     margin: 10px;
 }
 .f3{
-    border: 2px solid  wheat;
+    border: none;
     padding: 20px;
     text-align: left;
     border-radius: 45px;
     margin: 10px;
 }
 .f4{
-    border: 2px solid wheat;
+    border: none;
     padding: 20px;
-    text-align: left;
+    text-align: center;
     border-radius: 45px;
     margin: 10px;
 }
 .f5{
-    border: 2px solid wheat;
+    border: none;
     padding: 20px;
     text-align: left;
     border-radius: 45px;
     margin: 10px;
 }
 .f6{
-    border: 2px solid wheat;
+    border: none;
     padding: 20px;
     text-align: center;
     border-radius: 45px;
@@ -371,4 +362,113 @@ footer{
 .fimg{
     float: right;
     margin: 10px;
+}
+
+
+
+
+
+
+/* For width 480px and smaller: */
+@media  screen and (max-width: 480px){
+    head{
+       font-size: smaller;
+     }
+     .container{
+         background-image: none;
+         background-color: grey;
+     }
+    html{
+        background-color: #252B42;
+        color: black;
+    }
+    body{
+        background-color: white;
+        color: black;
+        font-size: 5px;
+    }
+        .flex-container{
+           color: black;
+           flex-wrap: wrap;
+           font-size: 5px;
+           display: flex;
+        }
+    .container1{
+        display: flex;
+        font-size: 5px;
+        align-items: center;
+    }
+    .pgr{
+        font-size: 10px;
+        color: blue;
+        text-align: left;
+    }
+    .con{
+        overflow: scroll;
+        color: blue;
+        flex-wrap: wrap;
+        font-size: 5px;
+        margin: 3x;
+
+    }
+    #images{
+        flex-direction: column;
+
+
+    }
+    .box{
+        border: none;
+        background-color: white;
+        flex-direction: column;
+        text-align: center;
+        display: inline;
+        font-size: 5px;
+    }
+
+    .p{
+        flex-direction: column;
+        
+        color: blue;
+    }
+    .p1{
+        border: none;
+        padding: none;
+    }
+    .p ul>li{
+         font-size: 8px;
+         align-items: center;
+    }
+    .btm0{
+       display: none;
+    
+    }
+    .btm{
+        
+        flex-direction: column;
+        flex-wrap: wrap;
+        display: flex;
+        font-size: 8px;
+        justify-content: left;
+    }
+    .btm ul>li{
+        font-size: 10px;
+    }
+    .back2{
+     display: none;
+    }
+    .back1{
+        font-size: 8px;
+        display: flex;
+    }
+    .f1{
+        flex-direction: column;
+         background-color: grey;
+    
+    }
+    .f1 ul>li{
+        font-size: 10px;
+        text-align: center;
+        border: none;
+    }
+    
 }
