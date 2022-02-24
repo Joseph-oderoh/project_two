@@ -372,7 +372,7 @@ footer{
 /* For width 480px and smaller: */
 @media  screen and (max-width: 480px){
     head{
-       font-size: smaller;
+       font-size: 18px;
      }
      .container{
          background-image: none;
@@ -385,17 +385,17 @@ footer{
     body{
         background-color: white;
         color: black;
-        font-size: 15px;
+        font-size: 18px;
     }
         .flex-container{
            color: black;
            flex-wrap: wrap;
-           font-size: 15px;
+           font-size: 18px;
            display: flex;
         }
     .container1{
         display: flex;
-        font-size: 15px;
+        font-size: 18px;
         align-items: center;
     }
     .pgr{
@@ -407,7 +407,7 @@ footer{
         overflow: scroll;
         color: blue;
         flex-wrap: wrap;
-        font-size: 15px;
+        font-size: 18px;
 
     }
     #images{
@@ -434,7 +434,7 @@ footer{
         padding: none;
     }
     .p ul>li{
-         font-size: 15px;
+         font-size: 18px;
          align-items: center;
     }
     .btm0{
@@ -446,17 +446,17 @@ footer{
         flex-direction: column;
         flex-wrap: wrap;
         display: flex;
-        font-size: 15px;
+        font-size: 18px;
         justify-content: left;
     }
     .btm ul>li{
-        font-size: 15px;
+        font-size: 18px;
     }
     .back2{
      display: none;
     }
     .back1{
-        font-size: 8px;
+        font-size: 18px;
         display: flex;
     }
     .f1{
@@ -465,7 +465,7 @@ footer{
     
     }
     .f1 ul>li{
-        font-size: 15px;
+        font-size: 18px;
         text-align: center;
         border: none;
     }
